@@ -24,8 +24,6 @@
 .container{
     max-width: 1180px;
     margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .row{
@@ -45,10 +43,12 @@
 
 .col-60{
     width: 60%;
+    background-color: #418CF7;
 }
 
 .col-40{
     width: 40%;
+    background-color: #F7C3CC;
 }
 /*------------
     HEADER
@@ -89,4 +89,17 @@ header .container{
     min-height: 400px;
     min-width: 900px;
     border-radius: 5px;
+}
+
+/*--------------------
+    FIRST SECTION
+----------------------*/
+
+.first-section .container .row{
+    min-height: 500px;
+    display: flex;
+}
+
+.first-section .container{
+    padding: 60px;
 }
