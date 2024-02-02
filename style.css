@@ -103,3 +103,32 @@ header .container{
 .first-section .container{
     padding: 60px;
 }
+
+/*--------------------
+    SECOND SECTION
+----------------------*/
+.second-section{
+    background-color: #D3D3D3;
+}
+
+.second-section .container .row{
+    min-height: 500px;
+    display: flex;
+}
+
+.second-section .container{
+    padding: 60px;
+}
+
+/*--------------------
+    THIRD SECTION
+----------------------*/
+
+.third-section .container .row{
+    min-height: 500px;
+    display: flex;
+}
+
+.third-section .container{
+    padding: 60px;
+}
