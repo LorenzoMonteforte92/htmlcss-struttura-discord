@@ -24,8 +24,14 @@
 .container{
     max-width: 1180px;
     margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+.row{
+    display: flex;
+    min-height: 50px;
+    flex-wrap: wrap;
 }
 
 /*------------
@@ -35,4 +41,20 @@
 header{
     background-color: #B8D6E4;
     min-height: 100px;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-25{
+    width: 25%;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-40{
+    width: 40%;
 }
