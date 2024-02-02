@@ -72,3 +72,21 @@ header .container{
 .btn{
     text-align: end;
 }
+
+/*---------
+    HERO
+-----------*/
+.hero{
+    background-color: #020084;
+    display: flex;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .row{
+    background-color: #E386E7;
+    min-height: 400px;
+    min-width: 900px;
+    border-radius: 5px;
+}
