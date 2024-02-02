@@ -132,3 +132,24 @@ header .container{
 .third-section .container{
     padding: 60px;
 }
+
+/*--------------------
+    FOURTH SECTION
+----------------------*/
+
+.fourth-section{
+    background-color: #D3D3D3;
+    display: flex;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.fourth-section .row{
+    background-color: #228B22;
+    min-height: 900px;
+    min-width: 900px;
+    border-radius: 5px;
+}
+
