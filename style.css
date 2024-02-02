@@ -24,23 +24,15 @@
 .container{
     max-width: 1180px;
     margin: 0 auto;
-    /* padding-left: 10px;
-    padding-right: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .row{
     display: flex;
-    min-height: 50px;
     flex-wrap: wrap;
-}
-
-/*------------
-    HEADER
---------------*/
-
-header{
-    background-color: #B8D6E4;
-    min-height: 100px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .col-50{
@@ -58,3 +50,17 @@ header{
 .col-40{
     width: 40%;
 }
+/*------------
+    HEADER
+--------------*/
+
+header{
+    background-color: #B8D6E4;
+    height: 100px;
+    padding: 30px;   
+}
+
+header .container{
+    background-color: #D3A747;
+}
+
