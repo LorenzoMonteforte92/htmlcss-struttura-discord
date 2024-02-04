@@ -29,8 +29,8 @@
 .row{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -10px;
-    margin-right: -10px;
+    /* margin-left: -10px;
+    margin-right: -10px; */
 }
 
 .col-50{
@@ -62,7 +62,6 @@ header{
 
 header .container{
     background-color: #D3A747;
-    display: flex;
 }
 
 .link-nav{
