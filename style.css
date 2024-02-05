@@ -13,9 +13,25 @@
 
 .debug .row{
     border: 2px dashed coral;
+    background-color: #7FFFD4;} 
+.debug [class^="col"] {
+    border: 2px dashed black;
 }
-.debug .row > *{
-    border: 2px dashed rgb(80, 141, 255);
+
+.debug header .container .row{
+    background-color: #D3A747;
+}
+
+.debug .first-section .container .row{
+    background-color: #F7C3CC;
+}
+
+.debug section .col-60{
+    background-color: #418CF7;
+}
+
+.debug section .col-40 {
+    background-color: #FFC0CB;
 }
 
 /*----------------
@@ -24,13 +40,15 @@
 .container{
     max-width: 1180px;
     margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
-    /* margin-left: -10px;
-    margin-right: -10px; */
+    /* margin-left: -10px;   
+    margin-right: -10px;  */
 }
 
 .col-25{
@@ -43,7 +61,6 @@
 
 .col-40{
     width: 40%;
-    background-color: #F7C3CC;
 }
 
 .col-50{
@@ -52,7 +69,6 @@
 
 .col-60{
     width: 60%;
-    background-color: #418CF7;
 }
 
 .col-70{
@@ -65,16 +81,13 @@
 
 header{
     background-color: #B8D6E4;
-    height: 80px;
     padding: 30px; 
 }
 
-header .container{
-    background-color: #D3A747;
-}
-
-.link-nav{
-    text-align: center;
+.link-nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
 }
 
 .btn{
@@ -184,19 +197,17 @@ footer{
 }
 
 /*---------------------
-    FOOTER SECTION
+    FOOTER BOTTOM
 -----------------------*/
-.footer-section{
-    background-color: transparent;
-    border: solid 2px white;
+footer .container:nth-child(2){
+    border-top: solid 2px white;
     padding-top: 30px;
     margin-top: 40px;
 }
 
-.footer-section .container{
-    min-height: 80px;
+.footer-bottom{
     background-color: #7FFFD4;
-    display: flex;
+    min-height: 50px;
     justify-content: space-between;
     align-items: center;
 }
@@ -204,3 +215,4 @@ footer{
 .footer-logo, .footer-btn{
     background-color: #FFB6C1;
 }
+
