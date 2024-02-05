@@ -33,12 +33,21 @@
     margin-right: -10px; */
 }
 
-.col-50{
-    width: 50%;
-}
-
 .col-25{
     width: 25%;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.col-40{
+    width: 40%;
+    background-color: #F7C3CC;
+}
+
+.col-50{
+    width: 50%;
 }
 
 .col-60{
@@ -46,10 +55,10 @@
     background-color: #418CF7;
 }
 
-.col-40{
-    width: 40%;
-    background-color: #F7C3CC;
+.col-70{
+    width: 70%;
 }
+
 /*------------
     HEADER
 --------------*/
@@ -158,4 +167,9 @@ header .container{
 
 footer{
     background-color: #23272A;
+    padding-top: 12px;
+}
+
+footer .container .row{
+    min-height: 570px;
 }
